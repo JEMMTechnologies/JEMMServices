@@ -37,7 +37,7 @@ namespace JEMMServices.Controllers
             mail.IsBodyHtml = true;
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
             client.UseDefaultCredentials = false;
-            client.Credentials = new NetworkCredential("lyn@greenegablesinn.com", "Young3725.");
+            client.Credentials = new NetworkCredential("lyn@greenegablesinn.com", "@Joemattcoy1");
             client.Host = "smtp.office365.com";
             var subject = value.subject;
             if (value.to == null)
